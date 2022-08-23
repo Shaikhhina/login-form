@@ -1,0 +1,75 @@
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-image:url("https://img.freepik.com/premium-photo/university-student-is-learning-lessons-online-while-sitting-wooden-working-desk_35674-2660.jpg?size=626&ext=jpg&ga=GA1.2.2068660830.1656829885");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    background: #01d28e;
+    border: 2px solid #01d28e;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 1rem;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+    color:black;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: cornflowerblue;
+    padding: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 200px;
+  
+  }
+  
+  .list-container {
+    display: flex;
+
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+    margin: 10px;
+  }
